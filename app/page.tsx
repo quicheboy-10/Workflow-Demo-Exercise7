@@ -6,6 +6,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 const Fullpage = () => (
   <ReactFullpage
     //fullpage options
+    credits={{ enabled: false,}}
     licenseKey = {'YOUR_KEY_HERE'}
     scrollingSpeed = {1000} /* Options here */
 
